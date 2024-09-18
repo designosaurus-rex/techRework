@@ -1,0 +1,561 @@
+/* Base Styles */
+body {
+  margin: 0;
+}
+
+.img_header {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 3rem;
+  text-align: center;
+  color: #233249;
+}
+
+.infop {
+  text-align: center;
+  color: #233249;
+  margin-bottom: 2rem;
+}
+
+/* Section 1 Styles */
+.section1 {
+  border-radius: 8px; /* Optional: To give rounded corners to sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+  background-color: #e682a9;
+  margin-inline: 2rem;
+}
+
+.section1 h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #233249;
+}
+
+.section1 p {
+  color: #233249;
+  padding-inline: 2rem;
+  line-height: 1.6;
+  max-width: 35ch;
+  padding-bottom: 2rem;
+  font-size: larger;
+}
+
+/* Media Queries */
+@media (max-width: 799px) {
+  .img_header {
+    max-width: 100%;
+  }
+
+  .section1 {
+    margin-inline: 3rem; /* Adjusted for smaller screens */
+  }
+
+  .h2_ui {
+    text-align: center;
+    background-color: #233249;
+  }
+
+  h1 {
+    margin-top: 3rem;
+    text-align: center;
+    color: #233249;
+  }
+
+  .infop {
+    text-align: center;
+    color: #233249;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+  }
+  .sektion_udstyr1 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #233249;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 60%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin: 0 auto; /* Center the container */
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+
+  .sektion_udstyr2 {
+    margin-top: 3rem;
+    max-width: 100%;
+    background-color: #afb5bd;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #233249;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #233249;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 60%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ea5045; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ededed; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin: 0 auto; /* Center the container */
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr3 {
+    margin-top: 3rem;
+    max-width: 100%;
+    background-color: #e682a9;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #233249;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #233249;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 60%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #ffffff; /* Text color */
+      background-color: #233249; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin: 0 auto; /* Center the container */
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr4 {
+    margin-top: 3rem;
+    max-width: 100%;
+    background-color: #ea5045;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 60%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #e682a9; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin: 0 auto; /* Center the container */
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr5 {
+    margin-top: 3rem;
+    max-width: 100%;
+    background-color: #233249;
+    margin-bottom: 2rem;
+    margin-inline: 1rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 60%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin: 0 auto; /* Center the container */
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .img_header {
+    max-width: 100%;
+  }
+
+  .section1 {
+    margin-inline: 32rem; /* Consistent margin for larger screens */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .h2_ui {
+    text-align: center;
+    background-color: #233249;
+  }
+  .sektion_udstyr1 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #233249;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+      width: 50%;
+      padding-top: 1rem;
+      line-height: 1.7;
+      font-size: larger;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 100%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin-left: 1rem;
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr2 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #afb5bd;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #233249;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #233249;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+      width: 55%;
+      padding-top: 1rem;
+      line-height: 1.7;
+      font-size: larger;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 100%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ea5045; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ededed; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin-left: 1rem;
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr3 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #e682a9;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #233249;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #233249;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+      width: 55%;
+      padding-top: 1rem;
+      line-height: 1.7;
+      font-size: larger;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 100%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #ffffff; /* Text color */
+      background-color: #233249; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin-left: 1rem;
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr4 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #ea5045;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+      width: 55%;
+      padding-top: 1rem;
+      line-height: 1.7;
+      font-size: larger;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 100%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #e682a9; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin-left: 1rem;
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+  .sektion_udstyr5 {
+    margin-top: 6rem;
+    max-width: 100%;
+    background-color: #233249;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    border-radius: 8px; /* Optional: To give rounded corners to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    h2 {
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-left: 2rem;
+    }
+    p {
+      color: #ffffff;
+      padding-inline: 2rem;
+      padding-bottom: 2rem;
+      width: 55%;
+      padding-top: 1rem;
+      line-height: 1.7;
+      font-size: larger;
+    }
+    /* Base styles for the buttons */
+    .btn {
+      display: block; /* Make each button take up the full width of its container */
+      width: 100%; /* Full width to align with the container width */
+      padding: 10px 20px; /* Add some padding for better appearance */
+      margin-bottom: 1rem; /* Space between buttons */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1rem; /* Font size */
+      color: #233249; /* Text color */
+      background-color: #ffffff; /* Background color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+    }
+
+    /* Change background color on hover */
+    .btn:hover {
+      background-color: #ea5045; /* Darker shade of the background color */
+    }
+
+    /* Container styles */
+    .button-container {
+      max-width: 400px; /* Adjust container width as needed */
+      margin-left: 1rem;
+      padding: 1rem; /* Add some padding around the container */
+    }
+  }
+}
