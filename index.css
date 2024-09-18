@@ -13,10 +13,10 @@
     gap: 1em; /* Keep some spacing between the images */
     padding-inline: 2rem;
   }
-
   /* Ensure each grid item (image and content) takes full width */
   .grid-item {
     text-align: center;
+    position: relative; /* Required for the absolute positioning of overlay elements */
   }
 
   /* Make the images responsive and stack them */
@@ -26,6 +26,13 @@
     max-width: 100%; /* Ensure the images don't exceed container width */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+
+  /* Hover effect for image */
+  .grid-item:hover img {
+    transform: scale(1.1); /* Scale the image up by 10% */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Optional: Enhance shadow on hover */
   }
 }
 
@@ -140,6 +147,8 @@ h1 {
 
   .grid-item {
     text-align: center;
+    /* Add transition effect to smooth the scaling */
+    transition: transform 0.3s ease;
   }
 
   .grid-item img {
@@ -148,6 +157,13 @@ h1 {
     max-width: 300px; /* Optional: Limits the max size of the image */
     border-radius: 8px; /* Optional: To give rounded corners to sections */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    /* Add transition effect to smooth the scaling */
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect for the grid item */
+  .grid-item:hover img {
+    transform: scale(1.1); /* Scale the image to 110% of its original size */
   }
 
   .grid-item h2 {
