@@ -325,43 +325,61 @@ h1 {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Ensartede kolonner */
+  grid-template-columns: repeat(4, 1fr);
   background-color: #233249;
-  padding: 20px; /* Tilføj padding for at give luft */
-  gap: 20px; /* Afstand mellem kolonner */
+  padding: 20px 10px;
+  gap: 15px;
   color: #ffffff;
 }
 
 .text_section {
-  background-color: #235588; /* Blødere blå farve for at undgå visuel konflikt */
   text-align: center;
-  padding: 10px; /* Lidt padding for bedre struktur */
-  border-radius: 5px; /* Tilføj afrundede hjørner for et moderne look */
+  padding: 15px 10px;
+  border-radius: 5px;
 }
 
 .section_overskrift h1 {
-  font-size: 1.5rem; /* En præcis størrelse for bedre overskuelighed */
+  font-size: 1.3rem;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 10px; /* Afstand mellem overskrift og indhold */
+  margin-bottom: 10px;
 }
 
 .links ul {
-  padding: 0; /* Fjern standard padding */
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
 .links ul li {
-  list-style: none; /* Ingen punktopstilling */
-  margin: 5px 0; /* Lidt mellemrum mellem links */
+  list-style: none;
+  margin: 8px 0;
 }
 
 .links ul li a {
-  text-decoration: none; /* Fjern understrygning */
+  text-decoration: none;
   color: #ffffff;
   transition: color 0.3s ease;
 }
 
 .links ul li a:hover {
-  color: #ea5045; /* Skift farve ved hover for interaktivitet */
+  color: #ea5045;
+}
+
+/* Tablet layout (768px og op) */
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 15px;
+    gap: 20px;
+  }
+}
+
+/* Desktop layout (1024px og op) */
+@media (min-width: 1024px) {
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 20px;
+    gap: 30px;
+  }
 }
