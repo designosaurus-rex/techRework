@@ -1,4 +1,21 @@
 /* Base Styles */
+.styleimg {
+  text-decoration: none; /* Remove underline */
+
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #2980b9; /* Change color on hover */
+  }
+
+  a:visited {
+    color: #8e44ad; /* Visited link color */
+  }
+
+  a:active {
+    color: #e74c3c; /* Active link color */
+  }
+}
+
 body {
   margin: 0;
 }
